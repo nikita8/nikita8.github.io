@@ -40,6 +40,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 2s;
 }
 
+@media only screen and (max-width: 768px) {
+  .intro-container {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
 .fade-in{
   animation: 2s ease 0s normal forwards 1 fadeIn;
   -webkit-animation: 2s ease 0s normal forwards 1 fadeIn;
